@@ -20,7 +20,7 @@ jobs:
 
   displayName: 'Run Tests'
 
-  pool: Default
+  pool: Din_pool
 
   steps:
 
