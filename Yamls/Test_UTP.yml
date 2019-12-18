@@ -30,7 +30,7 @@ jobs:
 
     inputs:
 
-      versionSelector: 'latestPreRelease'
+      versionSelector: '16.0,17.0'
 
   - task: VSTest@2
 
@@ -40,10 +40,11 @@ jobs:
 
       testAssemblyVer2: '**/*Sample_UTP*.dll'
 
-      searchFolder: '$(System.DefaultWorkingDirectory)\Sample_UTP\Sample_UTP\bin/Debug\'
+      searchFolder: '$(System.DefaultWorkingDirectory)\Sample_UTP\Sample_UTP\bin\Debug\'
 
       batchingBasedOnAgentsOption: 'customBatchSize'
 
       failOnMinTestsNotRun: 'true'
 
       vsTestVersion: 'toolsInstaller'
+      
