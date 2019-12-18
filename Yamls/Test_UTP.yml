@@ -30,7 +30,7 @@ jobs:
 
     inputs:
 
-      versionSelector: '16.0,17.0'
+      versionSelector: 'latestPreRelease'
 
   - task: VSTest@2
 
